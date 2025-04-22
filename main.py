@@ -1,3 +1,3 @@
-from script.pdf_tariff_parsing import scrub_pdf_hts_codes
+from script.scrub_pdf_hts_codes import scrub_pdf_hts_codes
 
 scrub_pdf_hts_codes()

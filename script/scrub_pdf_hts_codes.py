@@ -65,6 +65,7 @@ def scrub_pdf_hts_codes():
                 stop_2 = start_stop[3]
                 second_range = list(range(start_2, stop_2))
                 final_range = list(final_range + second_range)
+                
             for page_num in final_range:
                 page = pdf.pages[page_num]
                 text = page.extract_text()
