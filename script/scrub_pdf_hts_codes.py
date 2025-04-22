@@ -1,8 +1,6 @@
 # Attempt to read all of the codes from PDFs in the form xxxx.xx.xx
-# Making lemonade from the repeated requests from economist gurus on the team
-# to download data, copy and paste, and graph simple line graphs. Everyone has time
-# to volunteer for new projects. No one has time to do their own grunt work.
-from operator import index
+# Making lemonade from the repeated requests from economist on the team
+#to download data, copy and paste, and simple line graphs. Citation project next probably.
 
 import re
 import requests
